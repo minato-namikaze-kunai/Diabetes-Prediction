@@ -12,8 +12,6 @@ Setup
 Results
 Contributing
 License
-Project Overview
-Diabetes is a chronic disease that occurs either when the pancreas does not produce enough insulin or when the body cannot effectively use the insulin it produces. Early diagnosis can help in controlling the disease more effectively. This project implements a machine learning pipeline to predict the onset of diabetes in a patient.
 
 We use StandardScaler to standardize the data and a variety of machine learning models to make predictions, such as:
 
@@ -62,10 +60,11 @@ scikit-learn
 matplotlib
 seaborn
 jupyter (for notebooks)
-Model	Accuracy	Precision	Recall	F1 Score
-Logistic Regression	0.78	0.76	0.72	0.74
-Support Vector Machine (SVM)	0.80	0.79	0.75	0.77
-Random Forest	0.82	0.81	0.78	0.79
-You can install the dependencies using:
 
-pip install -r requirements.txt
+Model	Accuracy	Precision	Recall	F1 Score
+
+Logistic Regression	0.78	0.76	0.72	0.74
+
+Support Vector Machine (SVM)	0.80	0.79	0.75	0.77
+
+Random Forest	0.82	0.81	0.78	0.79
